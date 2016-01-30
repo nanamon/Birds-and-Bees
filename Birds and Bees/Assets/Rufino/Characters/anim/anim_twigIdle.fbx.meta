@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 5d38099b614db8543b0d0084ac14f4f0
+timeCreated: 1451148317
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bip_chin
+    100004: Quad001_Calf1_L
+    100006: Quad001_Calf1_R
+    100008: Quad001_Calf_L
+    100010: Quad001_Calf_R
+    100012: Quad001_Clavicle_L
+    100014: Quad001_Clavicle_R
+    100016: Quad001_Eye_L
+    100018: Quad001_Eye_R
+    100020: Quad001_EyelidDown1_L
+    100022: Quad001_EyelidDown1_R
+    100024: Quad001_EyelidDown_L
+    100026: Quad001_EyelidDown_R
+    100028: Quad001_EyelidUp1_L
+    100030: Quad001_EyelidUp1_R
+    100032: Quad001_EyelidUp_L
+    100034: Quad001_EyelidUp_R
+    100036: Quad001_Foot_L
+    100038: Quad001_Foot_R
+    100040: Quad001_Forearm1_L
+    100042: Quad001_Forearm1_R
+    100044: Quad001_Forearm_L
+    100046: Quad001_Forearm_R
+    100048: Quad001_Hand_L
+    100050: Quad001_Hand_R
+    100052: Quad001_Head
+    100054: Quad001_Index1_L
+    100056: Quad001_Index1_R
+    100058: Quad001_Index_L
+    100060: Quad001_Index_R
+    100062: Quad001_Jaw
+    100064: Quad001_Neck
+    100066: Quad001_Neck1
+    100068: Quad001_Pelvis
+    100070: Quad001_Root
+    100072: Quad001_Spine
+    100074: Quad001_Spine1
+    100076: Quad001_Spine2
+    100078: Quad001_Tail
+    100080: Quad001_Tail1
+    100082: Quad001_Tail2
+    100084: Quad001_Tail3
+    100086: Quad001_Tail4
+    100088: Quad001_Tail5
+    100090: Quad001_Tail6
+    100092: Quad001_Tail7
+    100094: Quad001_Thigh1_L
+    100096: Quad001_Thigh1_R
+    100098: Quad001_Thigh_L
+    100100: Quad001_Thigh_R
+    100102: Quad001_Toe_L
+    100104: Quad001_Toe_R
+    100106: Quad001_ToeNub_L
+    100108: Quad001_ToeNub_R
+    100110: Quad001_UpperArm1_L
+    100112: Quad001_UpperArm1_R
+    100114: Quad001_UpperArm_L
+    100116: Quad001_UpperArm_R
+    400000: //RootNode
+    400002: bip_chin
+    400004: Quad001_Calf1_L
+    400006: Quad001_Calf1_R
+    400008: Quad001_Calf_L
+    400010: Quad001_Calf_R
+    400012: Quad001_Clavicle_L
+    400014: Quad001_Clavicle_R
+    400016: Quad001_Eye_L
+    400018: Quad001_Eye_R
+    400020: Quad001_EyelidDown1_L
+    400022: Quad001_EyelidDown1_R
+    400024: Quad001_EyelidDown_L
+    400026: Quad001_EyelidDown_R
+    400028: Quad001_EyelidUp1_L
+    400030: Quad001_EyelidUp1_R
+    400032: Quad001_EyelidUp_L
+    400034: Quad001_EyelidUp_R
+    400036: Quad001_Foot_L
+    400038: Quad001_Foot_R
+    400040: Quad001_Forearm1_L
+    400042: Quad001_Forearm1_R
+    400044: Quad001_Forearm_L
+    400046: Quad001_Forearm_R
+    400048: Quad001_Hand_L
+    400050: Quad001_Hand_R
+    400052: Quad001_Head
+    400054: Quad001_Index1_L
+    400056: Quad001_Index1_R
+    400058: Quad001_Index_L
+    400060: Quad001_Index_R
+    400062: Quad001_Jaw
+    400064: Quad001_Neck
+    400066: Quad001_Neck1
+    400068: Quad001_Pelvis
+    400070: Quad001_Root
+    400072: Quad001_Spine
+    400074: Quad001_Spine1
+    400076: Quad001_Spine2
+    400078: Quad001_Tail
+    400080: Quad001_Tail1
+    400082: Quad001_Tail2
+    400084: Quad001_Tail3
+    400086: Quad001_Tail4
+    400088: Quad001_Tail5
+    400090: Quad001_Tail6
+    400092: Quad001_Tail7
+    400094: Quad001_Thigh1_L
+    400096: Quad001_Thigh1_R
+    400098: Quad001_Thigh_L
+    400100: Quad001_Thigh_R
+    400102: Quad001_Toe_L
+    400104: Quad001_Toe_R
+    400106: Quad001_ToeNub_L
+    400108: Quad001_ToeNub_R
+    400110: Quad001_UpperArm1_L
+    400112: Quad001_UpperArm1_R
+    400114: Quad001_UpperArm_L
+    400116: Quad001_UpperArm_R
+    7400000: clip_twigIdle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: clip_twigIdle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Quad001_Root
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_L/Quad001_UpperArm_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_L/Quad001_UpperArm_L/Quad001_UpperArm1_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_L/Quad001_UpperArm_L/Quad001_UpperArm1_L/Quad001_Forearm_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_L/Quad001_UpperArm_L/Quad001_UpperArm1_L/Quad001_Forearm_L/Quad001_Forearm1_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_L/Quad001_UpperArm_L/Quad001_UpperArm1_L/Quad001_Forearm_L/Quad001_Forearm1_L/Quad001_Hand_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_L/Quad001_UpperArm_L/Quad001_UpperArm1_L/Quad001_Forearm_L/Quad001_Forearm1_L/Quad001_Hand_L/Quad001_Index_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_L/Quad001_UpperArm_L/Quad001_UpperArm1_L/Quad001_Forearm_L/Quad001_Forearm1_L/Quad001_Hand_L/Quad001_Index_L/Quad001_Index1_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_R/Quad001_UpperArm_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_R/Quad001_UpperArm_R/Quad001_UpperArm1_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_R/Quad001_UpperArm_R/Quad001_UpperArm1_R/Quad001_Forearm_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_R/Quad001_UpperArm_R/Quad001_UpperArm1_R/Quad001_Forearm_R/Quad001_Forearm1_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_R/Quad001_UpperArm_R/Quad001_UpperArm1_R/Quad001_Forearm_R/Quad001_Forearm1_R/Quad001_Hand_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_R/Quad001_UpperArm_R/Quad001_UpperArm1_R/Quad001_Forearm_R/Quad001_Forearm1_R/Quad001_Hand_R/Quad001_Index_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Clavicle_R/Quad001_UpperArm_R/Quad001_UpperArm1_R/Quad001_Forearm_R/Quad001_Forearm1_R/Quad001_Hand_R/Quad001_Index_R/Quad001_Index1_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_Eye_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_Eye_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_EyelidDown_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_EyelidDown_L/Quad001_EyelidDown1_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_EyelidDown_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_EyelidDown_R/Quad001_EyelidDown1_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_EyelidUp_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_EyelidUp_L/Quad001_EyelidUp1_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_EyelidUp_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_EyelidUp_R/Quad001_EyelidUp1_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_Jaw
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Spine/Quad001_Spine1/Quad001_Spine2/Quad001_Neck/Quad001_Neck1/Quad001_Head/Quad001_Jaw/bip_chin
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Tail
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Tail/Quad001_Tail1
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Tail/Quad001_Tail1/Quad001_Tail2
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Tail/Quad001_Tail1/Quad001_Tail2/Quad001_Tail3
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Tail/Quad001_Tail1/Quad001_Tail2/Quad001_Tail3/Quad001_Tail4
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Tail/Quad001_Tail1/Quad001_Tail2/Quad001_Tail3/Quad001_Tail4/Quad001_Tail5
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Tail/Quad001_Tail1/Quad001_Tail2/Quad001_Tail3/Quad001_Tail4/Quad001_Tail5/Quad001_Tail6
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Tail/Quad001_Tail1/Quad001_Tail2/Quad001_Tail3/Quad001_Tail4/Quad001_Tail5/Quad001_Tail6/Quad001_Tail7
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_L/Quad001_Thigh1_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_L/Quad001_Thigh1_L/Quad001_Calf_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_L/Quad001_Thigh1_L/Quad001_Calf_L/Quad001_Calf1_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_L/Quad001_Thigh1_L/Quad001_Calf_L/Quad001_Calf1_L/Quad001_Foot_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_L/Quad001_Thigh1_L/Quad001_Calf_L/Quad001_Calf1_L/Quad001_Foot_L/Quad001_Toe_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_L/Quad001_Thigh1_L/Quad001_Calf_L/Quad001_Calf1_L/Quad001_Foot_L/Quad001_Toe_L/Quad001_ToeNub_L
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_R/Quad001_Thigh1_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_R/Quad001_Thigh1_R/Quad001_Calf_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_R/Quad001_Thigh1_R/Quad001_Calf_R/Quad001_Calf1_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_R/Quad001_Thigh1_R/Quad001_Calf_R/Quad001_Calf1_R/Quad001_Foot_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_R/Quad001_Thigh1_R/Quad001_Calf_R/Quad001_Calf1_R/Quad001_Foot_R/Quad001_Toe_R
+        weight: 1
+      - path: Quad001_Root/Quad001_Pelvis/Quad001_Thigh_R/Quad001_Thigh1_R/Quad001_Calf_R/Quad001_Calf1_R/Quad001_Foot_R/Quad001_Toe_R/Quad001_ToeNub_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Quad001_Root
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 79ee4816f7b1cdc4ba405826a62f5c83,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
