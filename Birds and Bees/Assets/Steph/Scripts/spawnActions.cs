@@ -2,16 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class actions : MonoBehaviour {
+public class spawnActions : MonoBehaviour {
 
-    string[] actionsList = new string[] { "arrow", "5", "arrow", "60", "arrow", "40" };
+    string[] actionsList = new string[] { "rot", "5", "A", "60", "A", "40" };
     GameObject newAction;
     List <GameObject> spawnedActions;
 
     int aCount = 0;
-    int dCount = 1;
 
-    float speed = 0.05f;
+    float speed = -0.05f;
     float delay = 0f;
 
 	// Use this for initialization
@@ -31,7 +30,7 @@ public class actions : MonoBehaviour {
 
             if( delay < 0)
             {
-                spawnMove();
+                spawnAction();
 
                 aCount += 2;
 
@@ -42,19 +41,27 @@ public class actions : MonoBehaviour {
 
         for (int i = 0; i < spawnedActions.Count; i++)
         {
-            spawnedActions[i].transform.Translate(speed, 0, 0);
-
-            if( spawnedActions[i].transform.position.x > 11)
+            if(spawnedActions[i] != null)
             {
-                Destroy(spawnedActions[i]);
+                spawnedActions[i].transform.Translate(speed, 0, 0);
+
+                if (spawnedActions[i].transform.position.x < -11)
+                {
+                    Destroy(spawnedActions[i]);
+                    spawnedActions.RemoveAt(i);
+                }
+            }
+            else
+            {
                 spawnedActions.RemoveAt(i);
             }
+            
         }
     }
 
-	void spawnMove()
+	void spawnAction()
 	{
-        newAction = Instantiate(Resources.Load(actionsList[aCount]), new Vector3(-10, 0, 0), Quaternion.identity) as GameObject;
+        newAction = Instantiate(Resources.Load(actionsList[aCount]), new Vector3(11, 0, 0), Quaternion.identity) as GameObject;
 
         spawnedActions.Add(newAction);
 	}

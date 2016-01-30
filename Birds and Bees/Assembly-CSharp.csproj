@@ -45,7 +45,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Steph\Scripts\actions.cs" />
+     <Compile Include="Assets\Steph\Scripts\buttonCheck.cs" />
+     <Compile Include="Assets\Steph\Scripts\detectInput.cs" />
+     <Compile Include="Assets\Steph\Scripts\rotateCheck.cs" />
+     <Compile Include="Assets\Steph\Scripts\spawnActions.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
