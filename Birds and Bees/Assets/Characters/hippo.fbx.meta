@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: f78e26072056d634b93a456de7119d73
+timeCreated: 1454208303
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip001_Calf1_L
+    100002: Bip001_Calf1_R
+    100004: Bip001_Calf_L
+    100006: Bip001_Calf_R
+    100008: Bip001_Foot_L
+    100010: Bip001_Foot_R
+    100012: Bip001_Forearm1_L
+    100014: Bip001_Forearm1_R
+    100016: Bip001_Forearm_L
+    100018: Bip001_Forearm_R
+    100020: Bip001_Hand_L
+    100022: Bip001_Hand_R
+    100024: Bip001_Head
+    100026: Bip001_Index1_L
+    100028: Bip001_Index1_R
+    100030: Bip001_Index_L
+    100032: Bip001_Index_R
+    100034: Bip001_Neck
+    100036: Bip001_Pelvis
+    100038: Bip001_Root
+    100040: Bip001_Spine
+    100042: Bip001_Tail
+    100044: Bip001_Thigh1_L
+    100046: Bip001_Thigh1_R
+    100048: Bip001_Thigh_L
+    100050: Bip001_Thigh_R
+    100052: Bip001_Toe_L
+    100054: Bip001_Toe_R
+    100056: Bip001_ToeNub_L
+    100058: Bip001_ToeNub_R
+    100060: Bip001_UpperArm1_L
+    100062: Bip001_UpperArm1_R
+    100064: Bip001_UpperArm_L
+    100066: Bip001_UpperArm_R
+    100068: //RootNode
+    100070: hippo
+    100072: hippo_eyes
+    400000: Bip001_Calf1_L
+    400002: Bip001_Calf1_R
+    400004: Bip001_Calf_L
+    400006: Bip001_Calf_R
+    400008: Bip001_Foot_L
+    400010: Bip001_Foot_R
+    400012: Bip001_Forearm1_L
+    400014: Bip001_Forearm1_R
+    400016: Bip001_Forearm_L
+    400018: Bip001_Forearm_R
+    400020: Bip001_Hand_L
+    400022: Bip001_Hand_R
+    400024: Bip001_Head
+    400026: Bip001_Index1_L
+    400028: Bip001_Index1_R
+    400030: Bip001_Index_L
+    400032: Bip001_Index_R
+    400034: Bip001_Neck
+    400036: Bip001_Pelvis
+    400038: Bip001_Root
+    400040: Bip001_Spine
+    400042: Bip001_Tail
+    400044: Bip001_Thigh1_L
+    400046: Bip001_Thigh1_R
+    400048: Bip001_Thigh_L
+    400050: Bip001_Thigh_R
+    400052: Bip001_Toe_L
+    400054: Bip001_Toe_R
+    400056: Bip001_ToeNub_L
+    400058: Bip001_ToeNub_R
+    400060: Bip001_UpperArm1_L
+    400062: Bip001_UpperArm1_R
+    400064: Bip001_UpperArm_L
+    400066: Bip001_UpperArm_R
+    400068: hippo
+    400070: //RootNode
+    400072: hippo_eyes
+    4300000: hippo
+    4300002: hippo_eyes
+    9500000: //RootNode
+    13700000: hippo
+    13700002: hippo_eyes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
