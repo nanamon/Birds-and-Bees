@@ -46,7 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Steph\Scripts\spawnMoves.cs" />
+     <Compile Include="Assets\Rufino\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Rufino\Scripts\PlayerLoader.cs" />
+     <Compile Include="Assets\Rufino\Scripts\Tiling.cs" />
+     <Compile Include="Assets\Rufino\Scripts\WooBehaviour.cs" />
+     <Compile Include="Assets\Rufino\Scripts\characterAnim.cs" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Wispy Sky\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

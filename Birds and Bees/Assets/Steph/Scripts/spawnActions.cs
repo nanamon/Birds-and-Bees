@@ -9,12 +9,12 @@ public class spawnActions : MonoBehaviour {
 
     int aCount = 0;
 
-    float speed = -0.05f;
+    float speed = -0.045f;
     float delay = 0f;
 
     readFile readFile;
 
-	// Use this for initialization
+	// Use this for initializatio
 	void Start () {
 
         readFile = GetComponent<readFile>();
@@ -49,7 +49,7 @@ public class spawnActions : MonoBehaviour {
             {
                 spawnedActions[i].transform.Translate(speed, 0, 0);
 
-                if (spawnedActions[i].transform.position.x < -11)
+                if (spawnedActions[i].transform.position.z < -4.5)
                 {
                     Destroy(spawnedActions[i]);
                     spawnedActions.RemoveAt(i);
@@ -65,8 +65,28 @@ public class spawnActions : MonoBehaviour {
 
 	void spawnAction()
 	{
-        newAction = Instantiate(Resources.Load(readFile.actions[aCount + 1]), new Vector3(11, 0, 0), Quaternion.identity) as GameObject;
+        newAction = Instantiate(Resources.Load(readFile.actions[aCount + 1]), new Vector3(1.3f, 0.36f, 1), Quaternion.Euler(90, -90, 0)) as GameObject;
+        newAction.transform.localScale += new Vector3(-0.7f, 0, 0);
+        newAction.tag = "1";
 
         spawnedActions.Add(newAction);
-	}
+
+        newAction = Instantiate(Resources.Load(readFile.actions[aCount + 1]), new Vector3(-0.83f, 0.36f, 1), Quaternion.Euler(90, -90, 0)) as GameObject;
+        newAction.transform.localScale += new Vector3(-0.7f, 0, 0);
+        newAction.tag = "2";
+
+        spawnedActions.Add(newAction);
+
+        newAction = Instantiate(Resources.Load(readFile.actions[aCount + 1]), new Vector3(-3.01f, 0.36f, 1), Quaternion.Euler(90, -90, 0)) as GameObject;
+        newAction.transform.localScale += new Vector3(-0.7f, 0, 0);
+        newAction.tag = "3";
+
+        spawnedActions.Add(newAction);
+
+        newAction = Instantiate(Resources.Load(readFile.actions[aCount + 1]), new Vector3(-5.37f, 0.36f, 1), Quaternion.Euler(90, -90, 0)) as GameObject;
+        newAction.transform.localScale += new Vector3(-0.7f, 0, 0);
+        newAction.tag = "4";
+
+        spawnedActions.Add(newAction);
+    }
 }

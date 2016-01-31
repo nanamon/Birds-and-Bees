@@ -23,40 +23,27 @@ public class rotateCheck : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (colliding)
+        if (this.gameObject.transform.position.z < -2.5f && this.gameObject.transform.position.z > -4.5f)
         {
-            startX = Input.GetAxis("L_XAxis_1");
-            startY = Input.GetAxis("L_YAxis_1");
+            startX = Input.GetAxis("L_XAxis_" + this.gameObject.tag);
+            startY = Input.GetAxis("L_YAxis_" + this.gameObject.tag);
 
             startAngle = (Mathf.Atan2(startX, startY)) + 3.14159f;
-
-            if (startAngle != 180)
-            {
-                colliding = false;
-            }
-            else
-                print("derp");
         }
-
-    }
-
-    void OnTriggerEnter2D()
-    {
-        colliding = true;
-    }
-
-    void OnTriggerExit2D()
-    {
-        endX = Input.GetAxis("L_XAxis_1");
-        endY = Input.GetAxis("L_YAxis_1");
-
-        endAngle = (Mathf.Atan2(endX, endY)) + 3.14159f;
-
-        dist = (startAngle - endAngle) * Mathf.Rad2Deg;
-
-        if( dist > 50f )
+        else if( this.gameObject.transform.position.z < -2.5)
         {
-            Destroy(this.gameObject);
+            endX = Input.GetAxis("L_XAxis_" + this.gameObject.tag);
+            endY = Input.GetAxis("L_YAxis_" + this.gameObject.tag);
+
+            endAngle = (Mathf.Atan2(endX, endY)) + 3.14159f;
+
+            dist = (startAngle - endAngle) * Mathf.Rad2Deg;
+
+            if (dist > 30f)
+            {
+                Destroy(this.gameObject);
+            }
         }
+
     }
 }
