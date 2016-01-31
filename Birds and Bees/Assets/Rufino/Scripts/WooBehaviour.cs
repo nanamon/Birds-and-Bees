@@ -13,7 +13,7 @@ public class WooBehaviour : MonoBehaviour {
 
 		//winning coordinates
 
-		int whoisWinning = Maximum (GameManager.score);
+		float whoisWinning = Maximum (GameManager.score);
 		float coordinatetoGo = 0;
 
 		coordinatetoGo = 1.47f - 2.3f * whoisWinning;
@@ -26,10 +26,10 @@ public class WooBehaviour : MonoBehaviour {
 	
 	}
 
-	int Maximum (int[] myArray)
+	int Maximum (float[] myArray)
 	{
 		int winner = 0;
-		int max = myArray [0];
+		float max = myArray [0];
 
 		for (int i = 1; i < myArray.Length; i++) {
 			if(myArray[i] > max)

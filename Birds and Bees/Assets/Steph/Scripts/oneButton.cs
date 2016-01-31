@@ -19,8 +19,9 @@ public class oneButton : MonoBehaviour {
             if (Input.GetButtonDown(this.gameObject.name.Split("("[0])[0] + this.gameObject.tag))
             {
                 //print(-6 - this.gameObject.transform.position.x);
-                score = Mathf.Abs( -3 - this.gameObject.transform.position.x );
-                //print((0.5 - score) * 100);
+                score = Mathf.Abs( -3 - this.gameObject.transform.position.z );
+                GameManager.score[int.Parse(this.gameObject.tag) - 1] =  (0.5f - score) * 100f;
+                print((0.5f - score) * 100f);
                 Destroy(this.gameObject);
             }
         }
