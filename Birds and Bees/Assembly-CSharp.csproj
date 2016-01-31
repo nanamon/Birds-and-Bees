@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Steph\Scripts\buttonCheck.cs" />
      <Compile Include="Assets\Steph\Scripts\detectInput.cs" />
+     <Compile Include="Assets\Steph\Scripts\readFile.cs" />
      <Compile Include="Assets\Steph\Scripts\rotateCheck.cs" />
      <Compile Include="Assets\Steph\Scripts\spawnActions.cs" />
  <Reference Include="UnityEngine.UI">

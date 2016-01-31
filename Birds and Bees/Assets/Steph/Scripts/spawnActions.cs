@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 public class spawnActions : MonoBehaviour {
 
-    string[] actionsList = new string[] { "rot", "5", "A", "60", "A", "40" };
     GameObject newAction;
     List <GameObject> spawnedActions;
 
@@ -13,18 +12,23 @@ public class spawnActions : MonoBehaviour {
     float speed = -0.05f;
     float delay = 0f;
 
+    readFile readFile;
+
 	// Use this for initialization
 	void Start () {
+
+        readFile = GetComponent<readFile>();
+
         spawnedActions = new List<GameObject>();
 
-        delay = System.Int32.Parse(actionsList[aCount + 1]);
+        delay = int.Parse(readFile.actions[0]);
         
     }
 	
 	// Update is called once per frame
 	void Update () {
 
-        if(aCount + 1 < actionsList.Length)
+        if(aCount + 1 < readFile.actions.Count)
         {
             delay -= 1;
 
@@ -34,8 +38,8 @@ public class spawnActions : MonoBehaviour {
 
                 aCount += 2;
 
-                if(aCount < actionsList.Length)
-                    delay = System.Int32.Parse(actionsList[aCount + 1]);
+                if(aCount + 1 < readFile.actions.Count)
+                    delay = int.Parse(readFile.actions[aCount]);
             }
         }
 
@@ -61,7 +65,7 @@ public class spawnActions : MonoBehaviour {
 
 	void spawnAction()
 	{
-        newAction = Instantiate(Resources.Load(actionsList[aCount]), new Vector3(11, 0, 0), Quaternion.identity) as GameObject;
+        newAction = Instantiate(Resources.Load(readFile.actions[aCount + 1]), new Vector3(11, 0, 0), Quaternion.identity) as GameObject;
 
         spawnedActions.Add(newAction);
 	}
