@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class buttonCheck : MonoBehaviour {
+public class oneButton : MonoBehaviour {
 
     float score = 0;
 
@@ -20,7 +20,7 @@ public class buttonCheck : MonoBehaviour {
             {
                 //print(-6 - this.gameObject.transform.position.x);
                 score = Mathf.Abs( -3 - this.gameObject.transform.position.x );
-                print((0.5 - score) * 100);
+                //print((0.5 - score) * 100);
                 Destroy(this.gameObject);
             }
         }

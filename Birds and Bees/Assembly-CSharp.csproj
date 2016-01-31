@@ -50,11 +50,13 @@
      <Compile Include="Assets\Rufino\Scripts\Tiling.cs" />
      <Compile Include="Assets\Rufino\Scripts\WooBehaviour.cs" />
      <Compile Include="Assets\Rufino\Scripts\characterAnim.cs" />
-     <Compile Include="Assets\Steph\Scripts\buttonCheck.cs" />
      <Compile Include="Assets\Steph\Scripts\detectInput.cs" />
+     <Compile Include="Assets\Steph\Scripts\oneButton.cs" />
      <Compile Include="Assets\Steph\Scripts\readFile.cs" />
-     <Compile Include="Assets\Steph\Scripts\rotateCheck.cs" />
+     <Compile Include="Assets\Steph\Scripts\rotateCCW.cs" />
+     <Compile Include="Assets\Steph\Scripts\rotateCW.cs" />
      <Compile Include="Assets\Steph\Scripts\spawnActions.cs" />
+     <Compile Include="Assets\Steph\Scripts\twoButton.cs" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
