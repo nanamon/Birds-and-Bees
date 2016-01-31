@@ -36,7 +36,7 @@ public class rotateCW : MonoBehaviour {
 
                 startAngle = Mathf.Atan2(startX, startY);
 
-                if (startAngle * Mathf.Rad2Deg < -80)
+                if (startAngle * Mathf.Rad2Deg < -70)
                     startHit = true;
             }
             else
@@ -46,7 +46,7 @@ public class rotateCW : MonoBehaviour {
 
                 endAngle = Mathf.Atan2(endX, endY);
 
-                if (endAngle * Mathf.Rad2Deg > 80)
+                if (endAngle * Mathf.Rad2Deg > 70)
                 {
                     Destroy(this.gameObject);
                 }
