@@ -3,7 +3,7 @@ using System.Collections;
 
 public class buttonCheck : MonoBehaviour {
 
-    bool colliding = false;
+    float score = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -12,24 +12,15 @@ public class buttonCheck : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //Input.GetAxis();
-
-        if(colliding)
-        {
+        if ( this.gameObject.transform.position.x < -5.5f && this.gameObject.transform.position.x > -6.5f )
+        {   
             if (Input.GetButtonDown(this.tag + "1"))
             {
+                //print(-6 - this.gameObject.transform.position.x);
+                score = Mathf.Abs( -6 - this.gameObject.transform.position.x );
+                print((0.5 - score) * 100);
                 Destroy(this.gameObject);
             }
         }
 	}
-
-    void OnTriggerEnter2D()
-    {
-        colliding = true;
-    }
-
-    void OnTriggerExit2D()
-    {
-        colliding = false;
-    }
 }
