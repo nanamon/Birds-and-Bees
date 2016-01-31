@@ -31,8 +31,8 @@ public class rotateCW : MonoBehaviour {
 
             if (!startHit)
             {
-                startX = Input.GetAxis("L_XAxis_" + this.gameObject.tag);
-                startY = Input.GetAxis("L_YAxis_" + this.gameObject.tag);
+                startX = Input.GetAxis(this.gameObject.name.Split("-"[0])[0] + "XAxis_" + this.gameObject.tag);
+                startY = Input.GetAxis(this.gameObject.name.Split("-"[0])[0] + "YAxis_" + this.gameObject.tag);
 
                 startAngle = Mathf.Atan2(startX, startY);
 
@@ -41,8 +41,8 @@ public class rotateCW : MonoBehaviour {
             }
             else
             {
-                endX = Input.GetAxis("L_XAxis_" + this.gameObject.tag);
-                endY = Input.GetAxis("L_YAxis_" + this.gameObject.tag);
+                endX = Input.GetAxis(this.gameObject.name.Split("-"[0])[0] + "XAxis_" + this.gameObject.tag);
+                endY = Input.GetAxis(this.gameObject.name.Split("-"[0])[0] + "YAxis_" + this.gameObject.tag);
 
                 endAngle = Mathf.Atan2(endX, endY);
 

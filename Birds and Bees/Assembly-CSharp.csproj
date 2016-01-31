@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Rufino\Scripts\GameManager.cs" />
      <Compile Include="Assets\Rufino\Scripts\PlayerLoader.cs" />
+     <Compile Include="Assets\Rufino\Scripts\ScoreSet.cs" />
      <Compile Include="Assets\Rufino\Scripts\Tiling.cs" />
      <Compile Include="Assets\Rufino\Scripts\WooBehaviour.cs" />
      <Compile Include="Assets\Rufino\Scripts\characterAnim.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\Steph\Scripts\spawnActions.cs" />
      <Compile Include="Assets\Steph\Scripts\twoButton.cs" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Rufino\myShadow.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
