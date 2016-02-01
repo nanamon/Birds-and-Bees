@@ -26,7 +26,7 @@ public class spawnActions : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
         if(aCount + 1 < readFile.actions.Count)
         {
@@ -53,11 +53,13 @@ public class spawnActions : MonoBehaviour {
                 {
                     Destroy(spawnedActions[i]);
                     spawnedActions.RemoveAt(i);
+					i--;
                 }
             }
             else
             {
                 spawnedActions.RemoveAt(i);
+				i--;
             }
             
         }

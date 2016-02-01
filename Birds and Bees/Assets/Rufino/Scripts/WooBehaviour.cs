@@ -13,7 +13,10 @@ public class WooBehaviour : MonoBehaviour {
 
 		//winning coordinates
 
-		float whoisWinning = Maximum (GameManager.score);
+		int whoisWinning = Maximum (GameManager.score);
+
+		GameManager.winnerIndex = (whoisWinning );
+
 		float coordinatetoGo = 0;
 
 		coordinatetoGo = 1.47f - 2.3f * whoisWinning;

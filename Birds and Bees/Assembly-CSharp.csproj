@@ -45,6 +45,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Nan\UI\Scripts\Nan\AudioPlayer.cs" />
+     <Compile Include="Assets\Nan\UI\Scripts\Nan\MenuManager.cs" />
      <Compile Include="Assets\Rufino\Scripts\GameManager.cs" />
      <Compile Include="Assets\Rufino\Scripts\PlayerLoader.cs" />
      <Compile Include="Assets\Rufino\Scripts\ScoreSet.cs" />
@@ -58,17 +60,24 @@
      <Compile Include="Assets\Steph\Scripts\rotateCW.cs" />
      <Compile Include="Assets\Steph\Scripts\spawnActions.cs" />
      <Compile Include="Assets\Steph\Scripts\twoButton.cs" />
+     <Compile Include="Assets\gameEndUI\gameEndUI.cs" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Rufino\myShadow.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\Wispy Sky\ReadMe.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

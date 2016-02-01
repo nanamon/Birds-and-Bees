@@ -20,8 +20,8 @@ public class oneButton : MonoBehaviour {
             {
                 //print(-6 - this.gameObject.transform.position.x);
                 score = Mathf.Abs( -3 - this.gameObject.transform.position.z );
-                GameManager.score[int.Parse(this.gameObject.tag) - 1] =  (0.5f - score) * 100f;
-                print((0.5f - score) * 100f);
+                GameManager.score[int.Parse(this.gameObject.tag) - 1] +=  (0.5f - score) * 100f;
+                //print((0.5f - score) * 100f);
                 Destroy(this.gameObject);
             }
         }
