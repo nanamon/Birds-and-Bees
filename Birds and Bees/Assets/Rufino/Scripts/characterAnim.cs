@@ -5,7 +5,7 @@ public class characterAnim : MonoBehaviour {
 	
 	
 	public Animator anim;
-	string up,down,right,left;
+	string up,aBTN,right,left, down;
 	bool dead = false;
 
 	
@@ -15,18 +15,18 @@ public class characterAnim : MonoBehaviour {
 		anim = this.GetComponent<Animator>();
 
 		if (this.tag == "Player1") {
-			up = "UpArrow";
-			down = "DownArrow";
+			up = "B_1";
+			aBTN =  "A_1";
 		} else if (this.tag == "Player2") {
-			up = "W";
-			down = "S";
+			up = "B_2";
+			aBTN = "A_2";
 		} else if (this.tag == "Player3") {
-			up = "U";
-			down = "J";
+			up = "B_3";
+			aBTN = "A_3";
 		}
 		else if (this.tag == "Player4") {
-			up = "O";
-			down = "L";
+			up = "B_4";
+			aBTN = "A_4";
 		}
 
 		
@@ -41,7 +41,7 @@ public class characterAnim : MonoBehaviour {
 		}
 		else
 		{
-			if (Input.GetKey ((KeyCode) System.Enum.Parse(typeof(KeyCode), down))) {
+			if (Input.GetButtonDown(up)) {
 				
 				
 
@@ -57,7 +57,7 @@ public class characterAnim : MonoBehaviour {
 
 
 
-			if (Input.GetKey ((KeyCode) System.Enum.Parse(typeof(KeyCode), up))) {
+			if (Input.GetButtonDown(aBTN)) { 
 
 				
 				anim.SetBool("React", true);

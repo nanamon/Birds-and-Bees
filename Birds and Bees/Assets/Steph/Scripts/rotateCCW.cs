@@ -15,6 +15,7 @@ public class rotateCCW : MonoBehaviour {
 
     bool startHit = false;
     bool endHit = false;
+	float score = 0;
 
     // Use this for initialization
     void Start () {
@@ -46,6 +47,10 @@ public class rotateCCW : MonoBehaviour {
 
                 if (endAngle * Mathf.Rad2Deg < -70)
                 {
+
+					score = Mathf.Abs( -3 - this.gameObject.transform.position.z );
+					GameManager.score[int.Parse(this.gameObject.tag) - 1] +=  (0.5f - score) * 100f;
+
                     Destroy(this.gameObject);
                 }
             }

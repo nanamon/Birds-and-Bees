@@ -53,13 +53,13 @@ public class spawnActions : MonoBehaviour {
                 {
                     Destroy(spawnedActions[i]);
                     spawnedActions.RemoveAt(i);
-                    i--;
+					i--;
                 }
             }
             else
             {
                 spawnedActions.RemoveAt(i);
-                i--;
+				i--;
             }
             
         }

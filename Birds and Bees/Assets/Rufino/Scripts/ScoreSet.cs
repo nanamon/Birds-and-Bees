@@ -13,6 +13,11 @@ public class ScoreSet : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		for(int i = 0; i < 4 ; i ++)
+		{
+			GameManager.score[i] = Mathf.Round(GameManager.score[i]);
+		}
 	
 		if(this.gameObject.name == "score1")
 			this.GetComponent<TextMesh>().text = GameManager.score[0].ToString();
